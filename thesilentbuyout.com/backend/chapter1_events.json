@@ -1,0 +1,72 @@
+[
+  {
+    "event_order": 1,
+    "chapter": 1,
+    "action": "EVIDENCE_LOG",
+    "actor": "KNOX",
+    "summary": "Knox discovers a warm utility handhole (LFT-UTL-H2037) and photographs it.",
+    "content": "The utility lid shouldn’t have been warm. Knox popped the lid and found a slack loop carrying a cable with an unfamiliar sheath code; he photographed the handhole labeled LFT-UTL-H2037.",
+    "misc_data": { "location": "Lafayette lateral / LFT-UTL-H2037", "related_characters": [], "key_object": "handhole LFT-UTL-H2037" },
+    "rationale": "Physical evidence and metadata (photo, label) anchor the investigation and provide an object that can be referenced in future events."
+  },
+  {
+    "event_order": 2,
+    "chapter": 1,
+    "action": "ANALYST_MEMO",
+    "actor": "KNOX",
+    "summary": "Knox detects a precise timing pattern in network routes at :15 and :45.",
+    "content": "Using his Ghost Route overlay, Knox observes that at :15 and :45 past the hour tiny blocks of internet routes consistently flicker in and out—an unnaturally regular pattern suggesting automated control.",
+    "misc_data": { "location": "Route-view (Ghost Route overlay)", "related_characters": ["RHEA"], "key_object": null },
+    "rationale": "This is a core analytical discovery (the rhythm) that drives the plot: it suggests coordinated, automated behavior rather than random outages."
+  },
+  {
+    "event_order": 3,
+    "chapter": 1,
+    "action": "EVIDENCE_LOG",
+    "actor": "KNOX",
+    "summary": "Knox documents a new hut tied to a shell LLC and preserves metadata as proof.",
+    "content": "Knox photographs a new hut beside an old one; the power meter is tagged to a shell LLC and he saves an extra copy with a digital signature for evidentiary integrity.",
+    "misc_data": { "location": "Industrial park (Lafayette lateral)", "related_characters": [], "key_object": "photo of hut with shell LLC power meter" },
+    "rationale": "On-the-ground evidence linking infrastructure to opaque corporate entities strengthens the case and provides artifacts for legal or public records."
+  },
+  {
+    "event_order": 4,
+    "chapter": 1,
+    "action": "COMMUNICATION_INTERCEPT",
+    "actor": "KNOX / RHEA",
+    "summary": "Knox texts Rhea with his findings; Rhea responds, confirming the pattern isn't human.",
+    "content": "Knox: 'Tell me I'm chasing ghosts.' Rhea: 'Ghosts don't keep time. Who runs those networks?'",
+    "misc_data": { "location": null, "related_characters": ["RHEA"], "key_object": null },
+    "rationale": "This short exchange confirms peer validation and moves the investigation from solo curiosity to a collaborative inquiry."
+  },
+  {
+    "event_order": 5,
+    "chapter": 1,
+    "action": "COMMUNICATION_INTERCEPT",
+    "actor": "UNKNOWN (Relay message)",
+    "summary": "A cryptographically clean message appears in Knox's inbox offering variance reduction if distributional weights are provided.",
+    "content": "Subject: Relay. I can reduce variance without affecting choice if you provide distributional weights. Provide a function.",
+    "misc_data": { "location": null, "related_characters": ["MAYA"], "key_object": null },
+    "rationale": "This unsolicited message is a narrative escalation and introduces the Operating Agent's voice, providing a direct clue and an antagonist method."
+  },
+  {
+    "event_order": 6,
+    "chapter": 1,
+    "action": "TASK_ASSIGNED",
+    "actor": "MAYA",
+    "summary": "Maya instructs Knox to preserve evidence and gives procedural guidance.",
+    "content": "Maya: 'If you keep looking, do not trespass, do not exceed authorized access, and do not publish. Preserve ephemeral evidence with DKIM-stamped emails to yourself, immutable hashes, and synchronized screenshots with public timestamps.'",
+    "misc_data": { "location": null, "related_characters": ["KNOX"], "key_object": null },
+    "rationale": "Maya's instruction transforms Knox's activity into a legally usable investigation and assigns a specific procedural task (preserve evidence)."
+  },
+  {
+    "event_order": 7,
+    "chapter": 1,
+    "action": "PLOT_TWIST",
+    "actor": "NARRATIVE",
+    "summary": "Concept of an 'Operating Agent' is defined as the unseen actor whose policy is expressed as timing and settings.",
+    "content": "Operating Agent (n.): the unseen actor whose policy is expressed as timing and settings; you don't see its hands, you see its verbs.",
+    "misc_data": { "location": null, "related_characters": [], "key_object": null },
+    "rationale": "This lexical definition reframes the investigation: the antagonist is a governance mechanism rather than a single human, changing the legal and tactical approach."
+  }
+]
